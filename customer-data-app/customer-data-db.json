@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "name": "Jonas",
+      "surname": "Jonaitis",
+      "birthDate": "1993-04-10",
+      "contactNumber": "+37069999999",
+      "email": "jonas@gmail.com"
+    },
+    {
+      "name": "Ona",
+      "surname": "Onaitytė",
+      "birthDate": "2000-11-11",
+      "contactNumber": "+37068888888",
+      "email": "ona@gmail.com"
+    },
+    {
+      "name": "Petras",
+      "surname": "Petraitis",
+      "birthDate": "1996-10-10",
+      "contactNumber": "+37067777777",
+      "email": "petras@gmail.com"
+    },
+    {
+      "name": "Juozas",
+      "surname": "Juozaitis",
+      "birthDate": "1988-08-08",
+      "contactNumber": "+37066666666",
+      "email": "juozas@gmail.com"
+    },
+    {
+      "name": "Mantas",
+      "surname": "Mantaitis",
+      "birthDate": "1992-02-02",
+      "contactNumber": "+37065555555",
+      "email": "mantas@gmail.com"
+    }
+  ]
+}
