@@ -1,6 +1,7 @@
 {
   "customers": [
     {
+      "id": 1,
       "name": "Jonas",
       "surname": "Jonaitis",
       "birthDate": "1993-04-10",
@@ -8,6 +9,7 @@
       "email": "jonas@gmail.com"
     },
     {
+      "id": 2,
       "name": "Ona",
       "surname": "Onaitytė",
       "birthDate": "2000-11-11",
@@ -15,6 +17,7 @@
       "email": "ona@gmail.com"
     },
     {
+      "id": 3,
       "name": "Petras",
       "surname": "Petraitis",
       "birthDate": "1996-10-10",
@@ -22,6 +25,7 @@
       "email": "petras@gmail.com"
     },
     {
+      "id": 4,
       "name": "Juozas",
       "surname": "Juozaitis",
       "birthDate": "1988-08-08",
@@ -29,11 +33,44 @@
       "email": "juozas@gmail.com"
     },
     {
+      "id": 5,
       "name": "Mantas",
       "surname": "Mantaitis",
       "birthDate": "1992-02-02",
       "contactNumber": "+37065555555",
       "email": "mantas@gmail.com"
+    },
+    {
+      "name": "Testas",
+      "surname": "Testauskas",
+      "birthDate": "1993-04-04",
+      "contactNumber": "+37069999990",
+      "email": "testas@testas.com",
+      "id": 6
+    },
+    {
+      "name": "Demo",
+      "surname": "Demonson",
+      "birthDate": "1988-08-08",
+      "contactNumber": "+37069999955",
+      "email": "demo@demo.com",
+      "id": 7
+    },
+    {
+      "name": "Toma",
+      "surname": "Tomauskiene",
+      "birthDate": "1999-09-09",
+      "contactNumber": "+37069988994",
+      "email": "toma@toma.com",
+      "id": 8
+    },
+    {
+      "name": "Petras",
+      "surname": "Petraitis",
+      "birthDate": "1998-08-08",
+      "contactNumber": "+37068888888",
+      "email": "petras@petras.com",
+      "id": 9
     }
   ]
 }

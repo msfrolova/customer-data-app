@@ -1,1 +1,19 @@
-
+<mat-toolbar
+  color="primary"
+  fxLayout="row"
+  fxLayoutAlign="space-between center"
+>
+  <button mat-button [routerLink]="['/customers-table']">
+    Customer Data App
+  </button>
+  <button
+    type="button"
+    mat-raised-button
+    mat-button
+    [routerLink]="['/add-customer']"
+  >
+    <mat-icon>account_circle</mat-icon>
+    Add new customer
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>

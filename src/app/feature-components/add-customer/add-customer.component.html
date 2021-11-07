@@ -1,0 +1,70 @@
+<div fxLayoutAlign="space-around center" fxLayout="column">
+  <form
+    [formGroup]="newCustomerForm"
+    fxLayout="column"
+    fxLayoutAlign="space-around center"
+    (ngSubmit)="addNewCustomer()"
+  >
+    <mat-form-field appearance="fill">
+      <mat-label>Enter customer name</mat-label>
+      <input matInput formControlName="name" required />
+
+      <mat-error *ngIf="newCustomerForm.controls.name.hasError('required')">
+        Name number is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter customer surname</mat-label>
+      <input matInput formControlName="surname" required />
+
+      <mat-error *ngIf="newCustomerForm.controls.surname.hasError('required')">
+        Surname number is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter birth date</mat-label>
+      <input
+        matInput
+        formControlName="birthDate"
+        placeholder="YYYY-MM-DD"
+        required
+      />
+
+      <mat-error
+        *ngIf="newCustomerForm.controls.birthDate.hasError('required')"
+      >
+        Birth date is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter customer telephone number</mat-label>
+      <input
+        matInput
+        formControlName="contactNumber"
+        placeholder="+3706.."
+        required
+      />
+      <mat-error
+        *ngIf="newCustomerForm.controls.contactNumber.hasError('required')"
+      >
+        Telephone number is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter customer name</mat-label>
+      <input
+        matInput
+        formControlName="email"
+        placeholder="example@example.com"
+        required
+      />
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">
+      Add customer
+    </button>
+  </form>
+</div>

@@ -1,0 +1,19 @@
+<div>
+  <mat-list role="list">
+    <mat-list-item role="listitem">Name: {{ customer.name }}</mat-list-item>
+    <mat-list-item role="listitem"
+      >Surname: {{ customer.surname }}</mat-list-item
+    >
+    <mat-list-item role="listitem"
+      >Birth date: {{ customer.birthDate }}</mat-list-item
+    >
+    <mat-list-item role="listitem"
+      >Telephone number: {{ customer.contactNumber }}</mat-list-item
+    >
+    <mat-list-item role="listitem">Email: {{ customer.email }}</mat-list-item>
+  </mat-list>
+
+  <div fxLayoutAlign="end">
+    <button mat-raised-button color="primary" mat-dialog-close>close</button>
+  </div>
+</div>
